@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "canvas-privacy",
+  "version": "1.0.0",
+  "author": "LulzFTW",
+
+  "description": "Prevent Canvas from logging page focus events.",
+
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.instructure.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+
+}

@@ -1,0 +1,14 @@
+{
+  "name": "canvas-privacy",
+  "version": "1.0.0",
+  "description": "Prevent Canvas from logging page focus events.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "web-ext build -s extension --overwrite-dest"
+  },
+  "author": "LulzFTW",
+  "license": "ISC",
+  "devDependencies": {
+    "web-ext": "^2.9.1"
+  }
+}
